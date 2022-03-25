@@ -134,7 +134,7 @@ test_loader = torch.utils.data.DataLoader(dataset=test_dataset,
 
 if args.model == 'resnet18':
     print("Loading the model")
-    cnn = ResNet18(num_classes=num_classes)
+    cnn = project1_model(num_classes=num_classes)
 
 print("Getting the model on GPU")
 cnn = cnn.cuda()
