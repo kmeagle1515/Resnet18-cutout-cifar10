@@ -18,7 +18,7 @@ from torchvision import datasets, transforms
 from util.misc import CSVLogger
 from util.cutout import Cutout
 
-from model.resnet import ResNet18
+from model.project1_model import project1_model
 
 from torchvision.datasets import ImageFolder
 from torch.utils.data import DataLoader
